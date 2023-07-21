@@ -41,9 +41,9 @@
                     <input class="form-control mr-sm-2 ml-4" type="text" placeholder="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
-                <a href="order.php" class="nav-item nav-link ml-4"><img src="images/tracking.png" height="40" width="40"></a>
-                <a href="shopping.php" class="nav-item nav-link"><img src="images/shopping-cart.png" height="35" width="35"></a>
-                <a href="user.php" class="nav-item nav-link"><img src="images/user.png" height="35" width="35"></a>
+                <a href="order.php" class="nav-item nav-link ml-4"><img src="../static/Images/tracking.png" height="40" width="40"></a>
+                <a href="shopping.php" class="nav-item nav-link"><img src="../static/Images/shopping-cart.png" height="35" width="35"></a>
+                <a href="user.php" class="nav-item nav-link"><img src="../static/Images/user.png" height="35" width="35"></a>
                 
             </div>
         </div>
@@ -200,7 +200,7 @@
                 <br><br>
                 <div class="cd py-3 p-3">
                     <div class="card py-3 p-3" style="width:20rem;margin:20px 0 24px 0">
-                        <img class="card-img-top" src="images/profile1.png" alt="image" style="width:100%">
+                        <img class="card-img-top" src="../static/Images/profile1.png" alt="image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Tstar</h4>
                             <p class="card-text">Tstar, A CEO of this company. He did lots of project based on Interior
@@ -213,7 +213,7 @@
 
                 <div class="cd py-3 p-3">
                     <div class="card  image/profile1.png" style="width:20rem;margin:20px 0 24px 0">
-                        <img class="card-img-top" src="images/profile2.png" alt="image" style="width:100%">
+                        <img class="card-img-top" src="../static/Images/profile2.png" alt="image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Juniour</h4>
                             <p class="card-text">Juniour, A CMO of this company. she did lots of project based on

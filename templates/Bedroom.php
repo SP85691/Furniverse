@@ -44,9 +44,9 @@
                     <input class="form-control mr-sm-2 ml-4" type="text" placeholder="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
-                <a href="order.php" class="nav-item nav-link ml-4"><img src="images/tracking.png" height="40" width="40"></a>
-                <a href="shopping.php" class="nav-item nav-link"><img src="images/shopping-cart.png" height="35" width="35"></a>
-                <a href="user.php" class="nav-item nav-link"><img src="images/user.png" height="35" width="35"></a>
+                <a href="order.php" class="nav-item nav-link ml-4"><img src="../static/Images/tracking.png" height="40" width="40"></a>
+                <a href="shopping.php" class="nav-item nav-link"><img src="../static/Images/shopping-cart.png" height="35" width="35"></a>
+                <a href="user.php" class="nav-item nav-link"><img src="../static/Images/user.png" height="35" width="35"></a>
                 
             </div>
         </div>
@@ -89,11 +89,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/bedroom/1.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/bedroom/1.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/Popular/bedroom/1.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/Popular/bedroom/1.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -103,11 +103,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/bedroom/2.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/bedroom/2.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/bedroom/2.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/bedroom/2.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -117,11 +117,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/bedroom/3.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/bedroom/3.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/bedroom/3.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/bedroom/3.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -131,11 +131,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/bedroom/4.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/bedroom/4.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/bedroom/4.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/bedroom/4.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -145,11 +145,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/bedroom/5.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/bedroom/5.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/bedroom/5.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/bedroom/5.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -159,11 +159,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/bedroom/6.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/bedroom/6.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/bedroom/6.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/bedroom/6.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -173,11 +173,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/bedroom/7.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/bedroom/7.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/bedroom/7.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/bedroom/7.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -187,11 +187,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/bedroom/8.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/bedroom/8.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/bedroom/8.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/bedroom/8.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -201,11 +201,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item first">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/bedroom/9.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/bedroom/9.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/bedroom/9.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/bedroom/9.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>

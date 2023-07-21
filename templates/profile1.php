@@ -16,7 +16,7 @@
 
 <body>
 
-    <!-- nav start -->
+     <!-- nav start -->
 
     <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
         <a href="" class="navbar-brand">
@@ -27,7 +27,7 @@
         </button>
         <div class="design navbar-design ml-auto px-3" id="navbardesign">
             <div class="navbar-nav ml-auto py-0">
-                <a href="Main.php" class="nav-item nav-link m-1">Home</a>
+                <a href="Main.php" class="nav-item nav-link active m-1">Home</a>
                 <a href="service.php" class="nav-item nav-link m-1">Service</a>
                 <a href="about.php" class="nav-item nav-link m-1">About</a>
                 <a href="project.php" class="nav-item nav-link m-1">Project</a>
@@ -38,19 +38,16 @@
                         <a class="dropdown-item" href="#">Link 2</a>
                         <a class="dropdown-item" href="#">Link 3</a>
                     </div>
-                </li>
+                </li>                
                 <a href="contact.php" class="nav-item nav-link m-1">Contact</a>
                 <form class="form-inline ml-2" action="/search.php">
                     <input class="form-control mr-sm-2 ml-4" type="text" placeholder="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
-                <a href="order.php" class="nav-item nav-link ml-4"><img src="images/tracking.png" height="40"
-                        width="40"></a>
-                <a href="shopping.php" class="nav-item nav-link"><img src="images/shopping-cart.png" height="35"
-                        width="35"></a>
-                <a href="user_signup.php" class="nav-item nav-link"><img src="images/user.png" height="35"
-                        width="35"></a>
-
+                <a href="order.php" class="nav-item nav-link ml-4"><img src="../static/Images/tracking.png" height="40" width="40"></a>
+                <a href="shopping.php" class="nav-item nav-link"><img src="../static/Images/shopping-cart.png" height="35" width="35"></a>
+                <a href="user.php" class="nav-item nav-link"><img src="../static/Images/user.png" height="35" width="35"></a>
+                
             </div>
         </div>
     </nav>
@@ -62,13 +59,15 @@
         <div class="container ">
             <div class="row align-items-center py-2">
                 <div class="col-md-6 text-center text-md-left">
-                    <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Order Tracking</h1>
+                    <h1 class="mb-4 mb-md-0 text-primary text-uppercase">ABOUT US</h1>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <div class="d-inline-flex align-items-center">
                         <a class="btn btn-outline-primary" href="main.php">Home</a>
                         <i class="fa fa-angle-double-right text-primary mx-2"></i>
-                        <a class="btn btn-outline-primary disabled" href="">Track Order</a>
+                        <a class="btn btn-outline-primary " href="About.php">About Us</a>
+                        <i class="fa fa-angle-double-right text-primary mx-2"></i>
+                        <a class="btn btn-outline-primary disabled" href="">Profile Show</a>
                     </div>
                 </div>
             </div>
@@ -76,65 +75,108 @@
     </div>
     <!-- Page Header Start -->
 
-    <!--- Main start --->
+    <!--Profile show start-->
+    <section>
+        <span class="rounded-lg">
+            <div class="container-fluid bg-light">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-xl-4 py-4">
+                            <div class="card mt-4 py-2">
+                                <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
+                                    <img src="../static/Images/profile1.png" alt="Profile" class="rounded-circle" height="200px"
+                                        width="200px">
+                                    <h2>TARUN</h2>
+                                    <h3 class="text-center">CERTIFIED ETHICAL HACKER</h3>
+                                    <div class="social-links mt-1">
+                                        <a class="btn btn-outline-secondary rounded-circle text-center mr-1 px-0 py-2"
+                                            style="width: 28px; height: 35px;"
+                                            href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter "></i></a>
+                                        <a class="btn btn-outline-secondary rounded-circle text-center mr-1 px-0 py-2"
+                                            style="width: 28px; height: 35px;" href="https://www.facebook.com/" target="_blank"><i
+                                                class="fa fa-facebook-f"></i></a>
+                                        <a class="btn btn-outline-secondary rounded-circle text-center mr-1 px-0 py-2"
+                                            style="width: 28px; height: 35px;"
+                                            href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><i
+                                                class="fa fa-linkedin"></i></a>
+                                        <a class="btn btn-outline-secondary rounded-circle text-center mr-1 px-0 py-2"
+                                            style="width: 28px; height: 35px;" href="https://www.instagram.com/" target="_blank"><i
+                                                class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
 
-    <main>
-        <br>
-        <br>
+                        </div>
 
-        <section class="track trk bg-basic align-item-center text-center py-2 py-lg-0 pl-3 pl-lg-5">
-            <div class="col-lg-6 col-md-4 mb-5">
-                <h2 class="track-head font-weight-bold py-5">Track Your Order using Order Number</h2>
-                <form class="container-fluid ">
-                    <div>
-                        <div class="track input-order mb-3 text-center py-2">
-                            <input type="text" id="order_id" class="text-center" value="" name="orderNumber"
-                                placeholder="Order Number" required="required">
+                        <br>
+
+                        <div class="col-xl-8 py-3">
+                            <div class="card mt-3 py-5">
+                                <div class="card-body pt-2">
+                                    <!-- Bordered Tabs -->
+                                    <h1 class="data">Overview</h1>
+                                    <div class="tab-content ">
+
+                                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+                                            <h4 class="card-title">About</h4>
+                                            <p class="small fst-italic">
+                                            </p>
+
+                                            <h2 class="card-title">Profile Details</h2>
+                                            <br>
+                                            
+
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 label ">Full Name :</div>
+                                                <div class="col-lg-9 col-md-8">Tarun Sharma</div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 label">Company :</div>
+                                                <div class="col-lg-9 col-md-8">FurniVerse Furniture Pvt Ltd</div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 label">Job :</div>
+                                                <div class="col-lg-9 col-md-8">CEO</div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 label">Country :</div>
+                                                <div class="col-lg-9 col-md-8">INDIA</div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 label">Address: </div>
+                                                <div class="col-lg-9 col-md-8">Block B-44, New Delhi, India, 110019
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 label">Phone :</div>
+                                                <div class="col-lg-9 col-md-8">(+91) 870-079-8546 </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4 label">Email :</div>
+                                                <div class="col-lg-9 col-md-8">tarunsharma5202@gmail.com</div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
                         </div>
-                        <div class="track input-num mb-3 text-center py-1">
-                            <input type="tel" id="num_5202" class="track-number" value="" name="phoneNumber"
-                                placeholder="Phone Number" autocomplete="tel" required="" pattern="[6-9][0-9]{9}"
-                                title="Please enter valid 10 digit mobile number">
-                        </div>
-                        <button class="btn btn-info ml-auto" type="submit">
-                            <span>Submit</span>
-                        </button>
                     </div>
-                </form>
-                <p class="track-nxt p-2"> - OR - </p>
-                <form class="track track-form" action="/login">
-                    <input type="hidden" name="src" value="track-order">
-                    <button class="btn btn-outline-secondary ml-auto " width="40" type="submit">Login To Track All
-                        Your Orders</button>
-                </form>
-                <br>
-            </div>
+        </span>
 
-            <style>
-                input,
-                textarea {
-                    font-size: 22px;
-                    display: block;
-                    width: 90%;
-                    height: 90%;
-                    padding: 5px 10px;
-                    background: none;
-                    background-image: none;
-                    border: 1px solid $gray-light;
-                    border-radius: 0;
-                }
+    </section>
 
-                .track trk{
-                    align-item: center;
-
-                }
-
-            </style>
-
-        </section>
-    </main>
-
-    <!--- Main end--->
+    <!--Profile show End-->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-1 px-sm-3 px-md-5">
@@ -220,50 +262,3 @@
 </body>
 
 </html>
-
-
-<div class="primary-stepper-container">
-    <div class="primary-steppper-content-container">
-        <div class="primary-steppper-content">
-            <div
-                class="primary-stepper-circle w_3_rem h_3_rem background_color_primary border_radius_senary color_white font_size_large font_weight_bold display_grid place_content_center">
-                <i class="fa-solid fa-check color_white font_size_large"></i>
-            </div>
-            <div class="primary-stepper-text-container">
-                <div class="primary-stepper-title font_size_medium font_weight_bold">Order Placed</div>
-                <div class="primary-stepper-description color_toast font_size_medium">Your order has been placed</div>
-            </div>
-        </div>
-        <div class="primary-steppper-content">
-            <div
-                class="primary-stepper-circle w_3_rem h_3_rem background_color_disabled border_radius_senary color_white font_size_large font_weight_bold display_grid place_content_center">
-                2
-            </div>
-            <div class="primary-stepper-text-container">
-                <div class="primary-stepper-title font_size_medium font_weight_bold">Preparing</div>
-                <div class="primary-stepper-description color_toast font_size_medium">Your order is being prepared</div>
-            </div>
-        </div>
-        <div class="primary-steppper-content">
-            <div
-                class="primary-stepper-circle w_3_rem h_3_rem background_color_disabled border_radius_senary color_white font_size_large font_weight_bold display_grid place_content_center">
-                3
-            </div>
-            <div class="primary-stepper-text-container">
-                <div class="primary-stepper-title font_size_medium font_weight_bold">On the way</div>
-                <div class="primary-stepper-description color_toast font_size_medium">Your order is being shipped</div>
-            </div>
-        </div>
-        <div class="primary-steppper-content">
-            <div
-                class="primary-stepper-circle w_3_rem h_3_rem background_color_disabled border_radius_senary color_white font_size_large font_weight_bold display_grid place_content_center">
-                4
-            </div>
-            <div class="primary-stepper-text-container">
-                <div class="primary-stepper-title font_size_medium font_weight_bold">Delivered</div>
-                <div class="primary-stepper-description color_toast font_size_medium">Your order was delivered
-                    successfully</div>
-            </div>
-        </div>
-    </div>
-</div>

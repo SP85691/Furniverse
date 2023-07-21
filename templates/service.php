@@ -81,7 +81,7 @@
                         <div class="col-lg-3 col-sm-6 ml-auto">
                             <div class="icon_1 ">
                                 <div class="imgg flex-column align-items-center justify-content-center"><img
-                                        src="images/icon img/icon-1.png"></div>
+                                        src="../static/Images/icon img/icon-1.png"></div>
                             </div>
                             <h2 class="furnitures_text ">Furnitures</h2>
                             <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but
@@ -97,7 +97,7 @@
                         <div class="col-lg-3 col-sm-6 ml-auto">
                             <div class="icon_1">
                                 <div class="imgg flex-column align-items-center justify-content-center">
-                                    <img src="images/icon img/icon-2.png" class="img-fluid">
+                                    <img src="../static/Images/icon img/icon-2.png" class="img-fluid">
                                 </div>
                             </div>
                             <h2 class="furnitures_text">Office</h2>
@@ -113,7 +113,7 @@
                         <div class="col-lg-3 col-sm-6 ml-auto">
                             <div class="icon_1 ">
                                 <div class="imgg flex-column align-items-center justify-content-center">
-                                    <img src="images/icon img/icon-3.png" class="img-fluid">
+                                    <img src="../static/Images/icon img/icon-3.png" class="img-fluid">
                                 </div>
                             </div>
                             <h2 class="furnitures_text">Home</h2>
@@ -129,7 +129,7 @@
                         <div class="col-lg-3 col-sm-6 ml-auto">
                             <div class="icon_1">
                                 <div class="imgg flex-column align-items-center justify-content-center">
-                                    <img src="images/icon img/icon-4.png" class="img-fluid">
+                                    <img src="../static/Images/icon img/icon-4.png" class="img-fluid">
                                 </div>
                             </div>
                             <h2 class="furnitures_text">Bedroom</h2>

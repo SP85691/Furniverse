@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Popular Links : Home</title>
+    <title>Popular Links : Resturant</title>
 </head>
 
 <meta charset="utf-8">
@@ -16,7 +16,7 @@
 
 <body>
 
-    <!-- nav start -->
+     <!-- nav start -->
 
     <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
         <a href="" class="navbar-brand">
@@ -44,9 +44,9 @@
                     <input class="form-control mr-sm-2 ml-4" type="text" placeholder="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
-                <a href="order.php" class="nav-item nav-link ml-4"><img src="images/tracking.png" height="40" width="40"></a>
-                <a href="shopping.php" class="nav-item nav-link"><img src="images/shopping-cart.png" height="35" width="35"></a>
-                <a href="user.php" class="nav-item nav-link"><img src="images/user.png" height="35" width="35"></a>
+                <a href="order.php" class="nav-item nav-link ml-4"><img src="../static/Images/tracking.png" height="40" width="40"></a>
+                <a href="shopping.php" class="nav-item nav-link"><img src="../static/Images/shopping-cart.png" height="35" width="35"></a>
+                <a href="user.php" class="nav-item nav-link"><img src="../static/Images/user.png" height="35" width="35"></a>
                 
             </div>
         </div>
@@ -82,18 +82,18 @@
         <p>WE PRESENTING HERE ALL THE DESIGNED FURNITURE PHOTOGRAPH.</p>
         <div class="col-12 text-center mb-2">
             <ul class="list-inline mb-4" id="portfolio-flters">
-                <li class="btn btn-outline-primary m-1 align-items-center disabled">Home</li>
+                <li class="btn btn-outline-primary m-1 align-items-center  disabled">Resturant</li>
             </ul>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/1.jpg" alt="error" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/1.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/1.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/1.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -103,11 +103,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/2.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/2.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/2.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/2.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -117,11 +117,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/3.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/3.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/3.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/3.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -131,11 +131,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/4.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/4.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/4.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/4.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -145,11 +145,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/5.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/5.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/5.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/5.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -159,11 +159,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/6.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/6.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/6.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/6.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -173,11 +173,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/7.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/7.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/7.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/7.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -187,11 +187,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/8.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/8.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/8.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/8.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>
@@ -201,11 +201,11 @@
             <div class="col-lg-4 col-md-4 col-sm-10 p-1 py-1 portfolio-item">
                 <div class="position-relative overflow-hidden">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <img src="images/popular/home/9.jpg" alt="" height="300" width="400" />
+                        <img src="../static/Images/popular/resturant2/9.jpg" alt="" height="300" width="400" />
                     </div>
                     <div
                         class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                        <a class="btn btn-outline-light m-1" href="images/popular/home/9.jpg" target="_blank"
+                        <a class="btn btn-outline-light m-1" href="../static/Images/popular/resturant2/9.jpg" target="_blank"
                             data-lightbox="project">
                             <i class="fa fa-eye"></i>
                         </a>

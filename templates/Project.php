@@ -41,9 +41,9 @@
                     <input class="form-control mr-sm-2 ml-4" type="text" placeholder="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
-                <a href="order.php" class="nav-item nav-link ml-4"><img src="images/tracking.png" height="40" width="40"></a>
-                <a href="shopping.php" class="nav-item nav-link"><img src="images/shopping-cart.png" height="35" width="35"></a>
-                <a href="user.php" class="nav-item nav-link"><img src="images/user.png" height="35" width="35"></a>
+                <a href="order.php" class="nav-item nav-link ml-4"><img src="../static/Images/tracking.png" height="40" width="40"></a>
+                <a href="shopping.php" class="nav-item nav-link"><img src="../static/Images/shopping-cart.png" height="35" width="35"></a>
+                <a href="user.php" class="nav-item nav-link"><img src="../static/Images/user.png" height="35" width="35"></a>
                 
             </div>
         </div>
@@ -96,7 +96,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 p-1 py-1 portfolio-item first">
                             <div class="position-relative overflow-hidden">
                                 <div class="project-img d-flex align-items-center justify-content-center">
-                                    <img class="img-fluid" src="images/project/p1.jpg" alt="">
+                                    <img class="img-fluid" src="../static/Images/project/p1.jpg" alt="">
                                 </div>
                                 <div
                                     class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
@@ -105,7 +105,7 @@
                                         <a class="btn btn-outline-light m-1" href="">
                                             <i class="fa fa-link"></i>
                                         </a>
-                                        <a class="btn btn-outline-light m-1" href="images/project/p1.jpg"
+                                        <a class="btn btn-outline-light m-1" href="../static/Images/project/p1.jpg"
                                             data-lightbox="project" target="_blank">
                                             <i class="fa fa-eye"></i>
                                         </a>
@@ -117,7 +117,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 p-1 py-1 portfolio-item second">
                             <div class="position-relative overflow-hidden">
                                 <div class="project-img d-flex align-items-center justify-content-center">
-                                    <img class="img-fluid" src="images/project/p2.jpg" alt="">
+                                    <img class="img-fluid" src="../static/Images/project/p2.jpg" alt="">
                                 </div>
                                 <div
                                     class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
@@ -126,7 +126,7 @@
                                         <a class="btn btn-outline-light m-1" href="">
                                             <i class="fa fa-link"></i>
                                         </a>
-                                        <a class="btn btn-outline-light m-1" href="images/project/p2.jpg"
+                                        <a class="btn btn-outline-light m-1" href="../static/Images/project/p2.jpg"
                                             data-lightbox="project" target="_blank">
                                             <i class="fa fa-eye"></i>
                                         </a>
@@ -139,7 +139,7 @@
                             <div class="position-relative overflow-hidden">
                                 <div class="project-img d-flex align-items-center justify-content-center">
 
-                                    <img class="img-fluid" src="images/project/p3.jpg" alt="">
+                                    <img class="img-fluid" src="../static/Images/project/p3.jpg" alt="">
                                 </div>
                                 <div
                                     class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
@@ -148,7 +148,7 @@
                                         <a class="btn btn-outline-light m-1" href="">
                                             <i class="fa fa-link"></i>
                                         </a>
-                                        <a class="btn btn-outline-light m-1" href="images/project/p3.jpg"
+                                        <a class="btn btn-outline-light m-1" href="../static/Images/project/p3.jpg"
                                             data-lightbox="project" target="_blank">
                                             <i class="fa fa-eye"></i>
                                         </a>
@@ -160,7 +160,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 p-1 py-1 portfolio-item first">
                             <div class="position-relative overflow-hidden">
                                 <div class="project-img d-flex align-items-center justify-content-center">
-                                    <img class="img-fluid" src="images/project/p4.jpg" alt="">
+                                    <img class="img-fluid" src="../static/Images/project/p4.jpg" alt="">
                                 </div>
                                 <div
                                     class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
@@ -169,7 +169,7 @@
                                         <a class="btn btn-outline-light m-1" href="">
                                             <i class="fa fa-link"></i>
                                         </a>
-                                        <a class="btn btn-outline-light m-1" href="images/project/p4.jpg"
+                                        <a class="btn btn-outline-light m-1" href="../static/Images/project/p4.jpg"
                                             data-lightbox="project" target="_blank">
                                             <i class="fa fa-eye"></i>
                                         </a>
@@ -181,7 +181,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 p-1 py-1 portfolio-item second">
                             <div class="position-relative overflow-hidden">
                                 <div class="project-img d-flex align-items-center justify-content-center">
-                                    <img class="img-fluid" src="images/project/p5.jpg" alt="">
+                                    <img class="img-fluid" src="../static/Images/project/p5.jpg" alt="">
                                 </div>
                                 <div
                                     class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
@@ -190,7 +190,7 @@
                                         <a class="btn btn-outline-light m-1" href="">
                                             <i class="fa fa-link"></i>
                                         </a>
-                                        <a class="btn btn-outline-light m-1" href="images/project/p5.jpg"
+                                        <a class="btn btn-outline-light m-1" href="../static/Images/project/p5.jpg"
                                             data-lightbox="project" target="_blank">
                                             <i class="fa fa-eye"></i>
                                         </a>
@@ -203,7 +203,7 @@
                             <div class="position-relative overflow-hidden">
                                 <div class="project-img d-flex align-items-center justify-content-center">
 
-                                    <img class="img-fluid" src="images/project/p6.jpg" alt="">
+                                    <img class="img-fluid" src="../static/Images/project/p6.jpg" alt="">
                                 </div>
                                 <div
                                     class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
@@ -212,7 +212,7 @@
                                         <a class="btn btn-outline-light m-1" href="">
                                             <i class="fa fa-link"></i>
                                         </a>
-                                        <a class="btn btn-outline-light m-1" href="images/project/p6.jpg"
+                                        <a class="btn btn-outline-light m-1" href="../static/Images/project/p6.jpg"
                                             data-lightbox="project" target="_blank">
                                             <i class="fa fa-eye"></i>
                                         </a>

@@ -44,11 +44,11 @@
                     <input class="form-control mr-sm-2 ml-4" type="text" placeholder="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
-                <a href="order.php" class="nav-item nav-link ml-4"><img src="images/tracking.png" height="40"
+                <a href="order.php" class="nav-item nav-link ml-4"><img src="../static/Images/tracking.png" height="40"
                         width="40"></a>
-                <a href="shopping.php" class="nav-item nav-link"><img src="images/shopping-cart.png" height="35"
+                <a href="shopping.php" class="nav-item nav-link"><img src="../static/Images/shopping-cart.png" height="35"
                         width="35"></a>
-                <a href="user.php" class="nav-item nav-link"><img src="images/user.png" height="35" width="35"></a>
+                <a href="user.php" class="nav-item nav-link"><img src="../static/Images/user.png" height="35" width="35"></a>
 
             </div>
         </div>
@@ -91,20 +91,20 @@
                     <div id="login">
                         <h1>Login Here</h1>
 
-                        <form action="/" method="post">
+                        <form method="post">
 
                             <div class="field-wrap">
                                 <label>
                                     Email Address<span class="req text-center"></span>
                                 </label>
-                                <input type="email" required autocomplete="off" />
+                                <input type="email" name="email" required autocomplete="on" />
                             </div>
 
                             <div class="field-wrap">
                                 <label>
                                     Password<span class="req text-center"></span>
                                 </label>
-                                <input type="password" required autocomplete="off" />
+                                <input type="password" name="password" required autocomplete="on" />
                             </div>
 
                             <p class="forgot"><a href="#">Forgot Password?</a></p>

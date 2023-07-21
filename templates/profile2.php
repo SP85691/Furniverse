@@ -16,9 +16,9 @@
 
 <body>
 
-     <!-- nav start -->
+   <!-- nav start -->
 
-    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+   <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
         <a href="" class="navbar-brand">
             <h1 class="m-0 display-5 text-white"><span class="text-primary"></span>FurniVerse</h1>
         </a>
@@ -44,9 +44,9 @@
                     <input class="form-control mr-sm-2 ml-4" type="text" placeholder="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
-                <a href="order.php" class="nav-item nav-link ml-4"><img src="images/tracking.png" height="40" width="40"></a>
-                <a href="shopping.php" class="nav-item nav-link"><img src="images/shopping-cart.png" height="35" width="35"></a>
-                <a href="user.php" class="nav-item nav-link"><img src="images/user.png" height="35" width="35"></a>
+                <a href="order.php" class="nav-item nav-link ml-4"><img src="../static/Images/tracking.png" height="40" width="40"></a>
+                <a href="shopping.php" class="nav-item nav-link"><img src="../static/Images/shopping-cart.png" height="35" width="35"></a>
+                <a href="user.php" class="nav-item nav-link"><img src="../static/Images/user.png" height="35" width="35"></a>
                 
             </div>
         </div>
@@ -84,10 +84,10 @@
                         <div class="col-xl-4 py-4">
                             <div class="card mt-4 py-2">
                                 <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
-                                    <img src="images/profile1.png" alt="Profile" class="rounded-circle" height="200px"
+                                    <img src="../static/Images/profile2.png" alt="Profile" class="rounded-circle" height="200px"
                                         width="200px">
-                                    <h2>TARUN</h2>
-                                    <h3 class="text-center">CERTIFIED ETHICAL HACKER</h3>
+                                    <h2>JUNIOUR</h2>
+                                    <h3 class="text-center">MARKETING HEAD</h3>
                                     <div class="social-links mt-1">
                                         <a class="btn btn-outline-secondary rounded-circle text-center mr-1 px-0 py-2"
                                             style="width: 28px; height: 35px;"
@@ -128,7 +128,7 @@
 
                                             <div class="row">
                                                 <div class="col-lg-3 col-md-4 label ">Full Name :</div>
-                                                <div class="col-lg-9 col-md-8">Tarun Sharma</div>
+                                                <div class="col-lg-9 col-md-8">Juniour</div>
                                             </div>
 
                                             <div class="row">
@@ -138,7 +138,7 @@
 
                                             <div class="row">
                                                 <div class="col-lg-3 col-md-4 label">Job :</div>
-                                                <div class="col-lg-9 col-md-8">CEO</div>
+                                                <div class="col-lg-9 col-md-8">CMO</div>
                                             </div>
 
                                             <div class="row">
@@ -147,19 +147,18 @@
                                             </div>
 
                                             <div class="row">
-                                                <div class="col-lg-3 col-md-4 label">Address: </div>
-                                                <div class="col-lg-9 col-md-8">Block B-44, New Delhi, India, 110019
-                                                </div>
+                                                <div class="col-lg-3 col-md-4 label">Address :</div>
+                                                <div class="col-lg-9 col-md-8">N-77, New Delhi, India, 110023</div>
                                             </div>
 
                                             <div class="row">
                                                 <div class="col-lg-3 col-md-4 label">Phone :</div>
-                                                <div class="col-lg-9 col-md-8">(+91) 870-079-8546 </div>
+                                                <div class="col-lg-9 col-md-8">(+91) 987-986-3538</div>
                                             </div>
 
                                             <div class="row">
                                                 <div class="col-lg-3 col-md-4 label">Email :</div>
-                                                <div class="col-lg-9 col-md-8">tarunsharma5202@gmail.com</div>
+                                                <div class="col-lg-9 col-md-8">juniour44@gmail.com</div>
                                             </div>
 
                                         </div>
@@ -183,7 +182,7 @@
         <div class="row pt-3">
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-primary mb-3">Get In Touch</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>ABC, New Delhi, India, 110019</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>ABC, New Delhi, India</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+91 345 67890</p>
                 <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
                 <div class="d-flex justify-content-start mt-4">
