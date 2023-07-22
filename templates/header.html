@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- nav start -->
+
+<nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+    <a class="navbar-brand" href="#">
+        <img src="../static/../static/Images/logo.png" alt="Logo" style="width:70px;">
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="design navbar-design ml-auto px-3" id="navbardesign">
+        <div class="navbar-nav ml-auto py-1">
+            <a href="{{ url_for('index') }}" class="btn nav-item nav-link active m-1">Home</a>
+            <a href="{{ url_for('services') }}" class="btn nav-item nav-link m-1">Service</a>
+            <a href="{{ url_for('projects') }}" class="btn nav-item nav-link m-1">Project</a>
+            <a href="{{ url_for('contact') }}" class="btn nav-item nav-link m-1">Contact</a>
+            {% if current_user.is_authenticated %}
+            <a href="{{ url_for('about') }}" class="btn nav-item nav-link m-1">About</a>
+            {% endif %}
+            <div class="row">
+                <form class="form-inline ml-2" action="/search.php">
+                    <input class="form-control mr-sm-2 ml-2" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+                <a href="order.php" class="nav-item nav-link ml-2"><img src="../static/../static/Images/tracking.png"
+                        height="40" width="40"></a>
+                <a href="shopping.php" class="nav-item nav-link"><img src="../static/../static/Images/shopping-cart.png"
+                        height="35" width="35"></a>
+                <li class="nav-item dropdown">
+                    <a class="btn nav-link dropdown-toggle m-1" data-toggle="dropdown" href="#">
+                        <img src="../static/../static/Images/user.png"
+                        height="35" width="35">
+                    </a>
+                    <div class="dropdown-menu">
+                        {% if not current_user.is_authenticated %}
+                        <a class="dropdown-item" href="{{ url_for('log_user') }}">Login</a>
+                        <a class="dropdown-item" href="{{ url_for('signup') }}">Sign up</a>
+                        {% endif %}
+                        {% if current_user.is_authenticated %}
+                        <a class="dropdown-item" href="{{ url_for('logout') }}">Logout</a>
+                        {% endif %}
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+</nav>
+{% endblock %}

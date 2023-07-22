@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
 {% include 'header.html' %}
-
     <!-- Page Header Start -->
     <div class="container-fluid bg-dark py-1">
         <div class="container ">
@@ -13,7 +12,7 @@
                     <div class="d-inline-flex align-items-center">
                         <a class="btn btn-outline-primary" href="main.php">Home</a>
                         <i class="fa fa-angle-double-right text-primary mx-2"></i>
-                        <a class="btn btn-outline-primary disabled" href="">Login In</a>
+                        <a class="btn btn-outline-primary disabled" href="">Signup</a>
                     </div>
                 </div>
             </div>
@@ -33,74 +32,45 @@
                             style="background-color:rgba(59, 59, 59, 0.8);">Sign Up</a></li>
                 </ul>
 
-                <div class="tab-content py-3 pt-3">
-                    <div id="login">
-                        <h1>Login Here</h1>
+                <div id="signup">
+                    <h1>Sign Up Here</h1>
 
-                        <form method="post">
+                    <form method="post">
 
+                        <div class="top-row">
                             <div class="field-wrap">
                                 <label>
-                                    Email Address<span class="req text-center"></span>
+                                    First Name<span class="req text-center"></span>
                                 </label>
-                                <input type="email" name="email" required autocomplete="on" />
-                            </div>
-
-                            <div class="field-wrap">
-                                <label>
-                                    Password<span class="req text-center"></span>
-                                </label>
-                                <input type="password" name="password" required autocomplete="on" />
-                            </div>
-
-                            <p class="forgot"><a href="#">Forgot Password?</a></p>
-
-                            <button class="button button-block" style="background-color:rgba(43, 102, 54, 0.5);" />Log
-                            In</button>
-
-                        </form>
-                    </div>
-
-                    <div id="signup">
-                        <h1>Sign Up Here</h1>
-
-                        <form action="/" method="post">
-
-                            <div class="top-row">
-                                <div class="field-wrap">
-                                    <label>
-                                        First Name<span class="req text-center"></span>
-                                    </label>
-                                    <input type="text" required autocomplete="off" />
-                                </div>
-
-                                <div class="field-wrap">
-                                    <label>
-                                        Last Name<span class="req text-center"></span>
-                                    </label>
-                                    <input type="text" required autocomplete="off" />
-                                </div>
+                                <input type="text" name="f_name" required autocomplete="off" />
                             </div>
 
                             <div class="field-wrap">
                                 <label>
-                                    Email Address<span class="req text-center"></span>
+                                    Last Name<span class="req text-center"></span>
                                 </label>
-                                <input type="email" required autocomplete="off" />
+                                <input type="text" name="l_name" required autocomplete="off" />
                             </div>
+                        </div>
 
-                            <div class="field-wrap">
-                                <label>
-                                    Set A Password<span class="req text-center"></span>
-                                </label>
-                                <input type="password" required autocomplete="off" />
-                            </div>
+                        <div class="field-wrap">
+                            <label>
+                                Email Address<span class="req text-center"></span>
+                            </label>
+                            <input type="email" name="email" required autocomplete="off" />
+                        </div>
 
-                            <button type="submit" class="button button-block "
-                                style="background-color:rgba(43, 102, 54, 0.5);" />Sign Up</button>
+                        <div class="field-wrap">
+                            <label>
+                                Set A Password<span class="req text-center"></span>
+                            </label>
+                            <input type="password" name="password" required autocomplete="off" />
+                        </div>
 
-                        </form>
-                    </div>
+                        <button type="submit" class="button button-block "
+                            style="background-color:rgba(43, 102, 54, 0.5);" />Sign Up</button>
+
+                    </form>
                 </div>
             </div>
 
@@ -259,20 +229,20 @@
                 }
             </style>
             <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-outline-secondary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="https://twitter.com/i/flow/login"><i
-                            class="fa fa-twitter"></i></a>
-                    <a class="btn btn-outline-secondary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="https://www.facebook.com/"><i
-                            class="fa fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-secondary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;"
-                        href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"><i
-                            class="fa fa-linkedin"></i></a>
-                    <a class="btn btn-outline-secondary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="https://www.instagram.com/"><i
-                            class="fa fa-instagram"></i></a>
-                </div>
+                <a class="btn btn-outline-secondary rounded-circle text-center mr-2 px-0"
+                    style="width: 38px; height: 38px;" href="https://twitter.com/i/flow/login"><i
+                        class="fa fa-twitter"></i></a>
+                <a class="btn btn-outline-secondary rounded-circle text-center mr-2 px-0"
+                    style="width: 38px; height: 38px;" href="https://www.facebook.com/"><i
+                        class="fa fa-facebook-f"></i></a>
+                <a class="btn btn-outline-secondary rounded-circle text-center mr-2 px-0"
+                    style="width: 38px; height: 38px;"
+                    href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"><i
+                        class="fa fa-linkedin"></i></a>
+                <a class="btn btn-outline-secondary rounded-circle text-center mr-2 px-0"
+                    style="width: 38px; height: 38px;" href="https://www.instagram.com/"><i
+                        class="fa fa-instagram"></i></a>
+            </div>
 
         </div>
 
@@ -281,6 +251,6 @@
     <!--login End-->
     <br>
 
-    {% include 'footer.html' %}
-    
-    {% endblock %}
+{% include 'footer.html' %}
+
+{% endblock %}
