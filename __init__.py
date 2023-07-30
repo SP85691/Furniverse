@@ -99,12 +99,32 @@ def projects():
 def contact():
     return render_template('Contact.html')
 
+@app.route('/contact', methods=['POST', 'GET'])
+def contact_post():
+    if request.method == 'POST':
+        name = request.form.get('name')
+        email = request.form.get('email')
+        phone = request.form.get('phone')
+        message = request.form.get('message')
+
+        contact = Contact_Us(name=name, email=email, phone=phone, message=message)
+
+        db.session.add(contact)
+        db.session.commit()
+        db.session.close()
+
+    return redirect(url_for('index')) 
+
+@app.route('/cart')
+def cart():
+    return render_template('cart.html', title_page="Cart")
+
 # Setup Flask-Login
 login_manager = LoginManager()
 login_manager.login_view = "log_user"
 login_manager.init_app(app)
 
-from .models import User
+from .models import User, Contact_Us
 
 # User loader function
 @login_manager.user_loader
@@ -118,6 +138,8 @@ def make_session_permanent():
 # Create Flask-Admin panel
 admin = Admin(app, name='Control Panel')
 admin.add_view(ModelView(User, db.session))
+admin.add_view(ModelView(Contact_Us, db.session))
+
 
 with app.app_context():
     db.create_all()
